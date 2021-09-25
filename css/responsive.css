@@ -1,0 +1,190 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1600px) {
+        /* CSS */
+        .fixed-with {
+            width: 100%;
+            margin: auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+        }
+        .header_menu{
+            width: 100%;
+            margin: auto;
+            box-sizing: border-box;
+        }
+    }
+    
+    
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1500px
+  */
+
+    @media (max-width: 1280px) {
+
+        /* CSS */
+        
+        
+    }
+
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w  1024px
+  */
+
+    @media  (max-width: 1024px) {
+
+        /* CSS */
+        .header_menu{
+            padding: 20px 0;
+        }
+        .header-left {
+            width: 100%;
+            text-align: center;
+        }
+        .header-right {
+            float: right;
+            width: 100%;
+        }
+        .header-right ul li a {
+            padding: 0 25px;
+            border: none;
+
+        }
+        .header-right ul {
+            text-align: center;
+        }
+        .service-item {
+            width: 100%;
+            margin: 15px 0;
+        }
+        .service-item {
+            width: 100%;
+            margin: 15px 0;
+        }
+        .blog-left-container {
+            width: 100%;
+        }
+        .blog-right-notification {
+            width: 100%;
+        }
+        .banner-caption h2 {
+            padding: 7px;
+        } 
+        .banner-caption h1 {
+            padding: 5px;
+        }
+        .footer-left {
+            width: 100%;
+            text-align: center;
+        }
+        .footer-right {
+            width: 100%;
+            text-align: center;
+        }
+        .footer-right li {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .footer-right a {
+            font-size: 20px;
+        }
+    }
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px 
+  */
+
+    @media (max-width: 768px)  {
+
+        /* CSS */
+        .banner {
+            padding: 110px 0;
+        }
+        .about h2 {
+            font-size: 40px;
+        }
+        .blog-right-notification h2 {
+            font-size: 40px;
+
+        }
+        .header-right ul li a {
+            padding: 0 18px;
+        }
+    }
+
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px 
+  */
+
+    @media (max-width: 530px) {
+
+        /* CSS */
+        .banner {
+            padding: 70px 0;
+        }
+        .header-right {
+            padding-bottom: 10px;
+        }
+        .header_menu {
+            padding: 5px 0;
+        }
+        .banner-caption h2 {
+            padding: 10px;
+            font-size: 30px;
+        }
+        .header-right ul li a {
+            font-size: 16px;
+            padding: 0 10px;
+            line-height: 40px;
+
+        }
+        .banner-caption h2 {
+            padding: 10px;
+            font-size: 25px;
+        }
+        .banner-caption h1 {
+            font-size: 40px;
+        }
+        .footer-right a {
+            font-size: 15px;
+        }
+        .footer-left p {
+            font-size: 16px;
+        }
+        .header-left a img {
+            width: 185px;
+        }
+        .service-item span {
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            font-size: 25px;
+        }
+    }
+
+    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px 
+  */
+
+    @media (max-width: 375px){
+        /* CSS */
+        .header-right ul li a {
+            font-size: 14px;
+            padding: 0 8px;
+            line-height: 40px;
+
+        }
+        .header-left a img {
+            width: 185px;
+        }
+        .banner-caption h1 {
+            font-size: 35px;
+        }
+    }
